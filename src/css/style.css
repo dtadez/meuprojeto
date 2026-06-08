@@ -15,18 +15,37 @@ footer{
     justify-items: center;
 }
 
-#cabeçalho{
+.img_intro{
+    height: 10%;
+    width: 10%;
+}
+
+nav{
+    position: sticky;
+    top: 0;
     background-color: #2b0126;
     display: flex;
-    flex-direction: column;
     color:rgb(184, 183, 183);
     justify-content: center;
     align-items: center;
-    position:fixed;
     width: 100%;
     padding: 10px;
-    top: 0px;
-    left: 0px;
+    margin-left: -12px;
+}
+
+#cabeçalho{
+    background-color: #2b0126;
+    display: flex;
+    flex-direction:row;
+    color:rgb(184, 183, 183);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: -12px;
+    margin-left: -12px;
+    position:relative;
+    font-size: larger;
 }
 
 a{
@@ -44,7 +63,7 @@ a:hover{
 
 main{
     padding: 2rem;
-    margin-top: 5rem;
+    margin-top: .5rem;
 }
 
 section{

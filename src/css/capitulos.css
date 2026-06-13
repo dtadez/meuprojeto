@@ -5,6 +5,10 @@ html{
     font-style: normal;
 }
 
+a{
+    text-decoration: none;
+}
+
 header{
     background-image: url(/src/assets/SplashScreen.png);
     background-size: cover;
@@ -22,6 +26,63 @@ header{
     height: 40vh;
     color: rgb(245, 209, 209);
     text-shadow: -1px -1px 0px rgba(0,0,0,0.8), 1px 1px 0px rgba(0,0,0,0.3), -1px 1px 0px rgba(0,0,0,0.3), 1px -1px 0px rgba(0,0,0,0.3);
+}
+
+nav {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+    background-color: #2b0126;
+    display: flex;
+    color:rgb(184, 183, 183);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: -12px;
+}
+
+nav a{
+    color:rgb(184, 183, 183);
+    padding: 0 1rem;
+    transition: 0.7s;
+}
+
+nav a:hover{
+    font-size: large;
+    transition: 0.7s;
+}
+
+.prologo{
+    color: rgb(152, 78, 101);
+}
+
+.cidade_abandonada{
+    color:#70A386;
+}
+
+.terreno_antigo{
+    color:#C64B59;
+}
+
+.resort_celestial{
+    color: #B35F67;
+}
+
+.cordilheira_dourada{
+    color: #8F6A99;
+}
+
+.templo_do_espelho{
+    color: #B86D4F;
+}
+
+.reflexao{
+    color: rgb(44, 113, 224);
+}
+
+.o_cume{
+    color: #3FD8B4;
 }
 
 body{
@@ -49,4 +110,19 @@ section{
 .icone{
     height: 6rem;
     width: 6rem
+}
+
+footer{
+    background-color: #2b0126;
+    display: flex;
+    flex-direction: column;
+    color:rgb(184, 183, 183);
+    justify-content: center;
+    align-items: center;
+    bottom: 0px;
+    justify-items: center;
+}
+
+footer a{
+    color:rgb(230, 142, 142);
 }

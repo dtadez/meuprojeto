@@ -112,6 +112,10 @@ section{
     width: 6rem
 }
 
+.instapix{
+    color:darkgreen;
+}
+
 footer{
     background-color: #2b0126;
     display: flex;

@@ -92,7 +92,7 @@ main{
 section{
     min-height: 25vh;
     padding: 2rem 0;
-    scroll-margin-top: 5rem;
+    scroll-margin-top: 1rem;
     border-bottom: 1px solid #240038;
     color: rgb(184, 183, 183);
     font-size: 1.2rem;

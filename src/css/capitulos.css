@@ -116,6 +116,12 @@ section{
     color:darkgreen;
 }
 
+.obs{
+    font-size: smaller;
+    margin-top: -1rem;
+    margin-left: 1rem;
+}
+
 footer{
     background-color: #2b0126;
     display: flex;

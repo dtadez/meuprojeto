@@ -254,3 +254,23 @@ body{
 .capitulos{
     color:rgb(230, 142, 142);
 }
+
+.steam{
+    color:#3378c7
+}
+
+.epic{
+    color:white;
+}
+
+.ps{
+    color:#479dff;
+}
+
+.xbox{
+    color:#37946e;
+}
+
+.nintendo{
+    color:red;
+}

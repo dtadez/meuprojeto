@@ -109,7 +109,28 @@ section{
 
 .icone{
     height: 6rem;
-    width: 6rem
+    width: 6rem;
+}
+
+.organizacao{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.prints{
+    height: 10rem;
+    width: 16.7rem;
+}
+
+.print_especial{
+    height: 10rem;
+    width: 10rem;
+}
+
+.descr{
+    font-size: smaller;
 }
 
 .instapix{
